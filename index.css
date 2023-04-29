@@ -1,0 +1,96 @@
+.main {
+    font-family:"Times New Roman";
+}
+.marq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(177, 201, 228);
+}
+.marqFonts {
+    font-size:36px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    letter-spacing: 5px;
+}
+.marqDir {
+    font-size: 25px;
+    text-align:center;
+    color: brown;
+    word-spacing: 8px;
+}
+.menu{
+    padding: 10px 10px;
+    background-color: rgb(78, 101, 173);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+}
+ li a{
+    font-size:20px;
+    font-weight:bold;
+    font-family:cursive;
+    padding: 8px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  }
+p.primary{
+    margin: 2em 6em;
+    padding: 1em 2em;
+    text-align: justify;  
+    border: 5px dotted rgb(179, 26, 5) ;
+    border-radius: 2em 3em 4em 2em;
+    color: rgb(31, 146, 108);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    line-height: 2em;
+    text-shadow: .3em .3em .1em rgb(204, 212, 153);
+}
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 7px 2px grey;
+    border: 4px ridge green;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* Style for the caption */
+caption {
+    caption-side: top;
+    background-color: #3a464b;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    /* Next we declare every individual border, always in clockwise direction. If we only set one value, the browser will understand that the value is for all borders.  */
+    border-radius: 15px 15px 0 0;
+}
+
+/* Style for only table headers */
+th {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Style for both the table headers (th) and the table cells (td) */
+th, td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid;
+}
+
+/* Style for the even table rows */
+tr:nth-child(even) {
+    background-color: #eaedf1;
+}
